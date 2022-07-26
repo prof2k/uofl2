@@ -129,11 +129,11 @@ export default {
         }
     },
     watch: {
-      showForm() {
-        if(this.showForm == false) {
-          this.showWelcome = false
-        }
-      }
+      // showForm() {
+      //   if(this.showForm == false) {
+      //     this.showWelcome = false
+      //   }
+      // }
     },
     methods: {
         calculateNewProbability() {
